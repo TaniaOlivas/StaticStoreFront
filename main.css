@@ -1,0 +1,157 @@
+body {
+    background: white url(./assets/background.jpeg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+.Wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3em;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+/*Header*/
+header {
+    padding: 3em 0 3em;
+    margin: 0 0 2em 0;
+    background-color: rgb(3, 73, 64);
+    text-align: center;
+}
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    margin: 0 0 1em 0;
+    text-shadow: 1px 2px 0 rgb(133, 129, 129);
+}
+
+header ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNav {
+    float: right;
+    margin: -2.5em 0 0 0;
+    padding: 0.35em;
+    height: 1.3em;
+    font-size: 1.2em;
+    background-color: rgb(192, 188, 188);
+}
+
+.bottomNav {
+    color: #000;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: -5px;
+    margin: 2px;
+    color: white;
+}
+
+.navIcons {
+    filter: sepia(100%) brightness(4);
+    width: 1em;
+    height: 1em;
+}
+
+nav.bottomNav ul li.acctNav a.active {
+    background-color: rgb(192, 188, 188);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em 0 1em;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0.3em 0.6em;
+}
+
+.bottomNav a:hover {
+    color: rgb(3, 73, 64);
+}
+.topNav a:hover {
+    color: rgb(3, 73, 64);
+}
+
+/* Sections */
+ section div.plant {
+     text-align: right;
+     background: rgb(3, 73, 64);
+     width: 350px;
+     margin: 2em;
+     padding: 2em;
+     position: relative;
+     float: left;
+ }
+
+ section div.beans {
+    text-align: right;
+    background: white;
+    width: 350px;
+    margin: 2em;
+    padding: 2em;
+    position: relative;
+    float: left;
+}
+
+.greenText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.3em;
+   color: rgb(3, 73, 64);
+   line-height: 1em;
+}
+
+.whiteText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.3em;
+   color: rgb(192, 188, 188);
+   line-height: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(3, 73, 64);
+    height: 75px;
+    font-size: 1em;
+    color: rgb(192, 188, 188);
+    text-align: center;
+    padding: 1em 2em;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 1.7em;
+    padding: 0;
+}
+
+footer a, footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(192, 188, 188);
+}
+
+.footerIcons {
+    height: 1.5em;
+    width: 1.5em;
+}
