@@ -3,6 +3,10 @@ body {
   font-family: 'Bebas Neue', cursive;
 }
 
+div.logoDiv {
+  display: none;
+}
+
 /* HEADER */
 .navbar {
   background-color: #212122 !important;
@@ -53,6 +57,16 @@ body {
   font-size: 14vw;
 }
 
+.logoHeading {
+  width: 45%;
+  border-radius: 50%;
+}
+
+/* MIDDLE */
+.expresso-handles {
+  height: 400px;
+}
+
 /* FOOTER */
 footer {
   width: 100%;
@@ -78,8 +92,28 @@ footer a:hover {
 }
 
 /* MEDIA SCREENS */
-@media screen and (max-width: 320px) {
-  .heading h1 {
-    font-size: 100px;
+@media screen and (max-width: 767px) {
+  div.heading {
+    display: none;
   }
+  div.logoDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .subscribe {
+    text-align: center;
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .logoHeading {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }
