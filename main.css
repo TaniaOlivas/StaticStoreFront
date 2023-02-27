@@ -64,7 +64,11 @@ div.logoDiv {
 
 /* MIDDLE */
 .expresso-handles {
-  height: 400px;
+  width: 80%;
+}
+
+div.col-4 h1 {
+  font-size: 8vw;
 }
 
 /* FOOTER */
@@ -107,6 +111,10 @@ footer a:hover {
   .subscribe {
     text-align: center;
     padding-top: 15px;
+  }
+
+  .expresso-handles {
+    width: 100%;
   }
 }
 @media screen and (max-width: 375px) {
